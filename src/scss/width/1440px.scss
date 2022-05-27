@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "../popup.scss";
 
 @media screen and (min-width: $laptopL) {
     .main {
@@ -36,5 +37,6 @@
             }
         }
     }
+
 
 }
