@@ -1,6 +1,6 @@
 @import "./variables.scss";
 
-@media screen and (max-width: $laptop) {
+@media screen and (min-width: $laptop) and (max-width: 1439px) {
     .main {
         display: flex;
         &__img {
