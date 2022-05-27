@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "../popup.scss";
 
 @media screen and (min-width: $mobileL) and (max-width: 767px) {
     .main {
@@ -39,6 +40,11 @@
                 font-size: 16px;
                 color: #FFFFFF;
             }
+        }
+    }
+    .popup {
+        &__content {
+            padding: 10px 30px;
         }
     }
 }
