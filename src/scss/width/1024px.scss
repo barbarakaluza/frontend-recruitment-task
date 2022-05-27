@@ -1,0 +1,42 @@
+@import "./variables.scss";
+
+@media screen and (max-width: $laptop) {
+    .main {
+        display: flex;
+        &__img {
+            margin-top: 96px;
+            margin-left: 190px;
+            width: 450px;
+            height: 220px;
+        }
+        &__content {
+            margin-right: 160px;
+            margin-left: 80px;
+            margin-top: 70px;
+            margin-bottom: 654px;
+            &--heading {
+                font-size: 42px;
+                font-family: "Roboto";
+                font-weight: 700;
+                color: #121212;
+            }
+            &--text {
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-weight: 300;
+                color: #121212;
+            }
+            &--button {
+                margin-top: 20px;
+                padding: 16px 40px;
+                background-color: #E4C1AE;
+                border-radius: 32px;
+                border: 0;
+                font-family: 'Roboto';
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+}
